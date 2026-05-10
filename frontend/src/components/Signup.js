@@ -64,7 +64,7 @@ const Signup = () => {
   return (
     <div className="auth-container">
       <div className="auth-box">
-        <h2>Create Your Tranontsika Account</h2>
+        <h2>🏠 Create Your Account</h2>
 
         {error && <div className="error-message">{error}</div>}
 
@@ -146,7 +146,7 @@ const Signup = () => {
           </button>
         </form>
 
-        <p style={{ marginTop: '20px', textAlign: 'center' }}>
+        <p style={{ marginTop: '20px', textAlign: 'center', fontSize: '0.9rem' }}>
           Already have an account? <a href="/login">Login here</a>
         </p>
       </div>

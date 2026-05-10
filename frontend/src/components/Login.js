@@ -43,7 +43,7 @@ const Login = () => {
   return (
     <div className="auth-container">
       <div className="auth-box">
-        <h2>Login to Tranontsika</h2>
+        <h2>🏠 Login to Tranontsika</h2>
 
         {error && <div className="error-message">{error}</div>}
 
@@ -73,7 +73,11 @@ const Login = () => {
           </button>
         </form>
 
-        <p style={{ marginTop: '20px', textAlign: 'center' }}>
+        <p style={{ marginTop: '20px', textAlign: 'center', fontSize: '0.9rem' }}>
+          <a href="/forgot-password" style={{ color: '#e74c3c' }}>Forgot your password?</a>
+        </p>
+
+        <p style={{ marginTop: '10px', textAlign: 'center', fontSize: '0.9rem' }}>
           Don't have an account? <a href="/signup">Sign up here</a>
         </p>
       </div>
